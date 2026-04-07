@@ -12,7 +12,7 @@ def is_valid_name(name: str) -> bool:
         if not (c.isalpha() or c == ' '):
             return False
     return True
-
+    
 def sales_operation():
     """
     1) Display all products with selling price (2×cost_price) and stock
